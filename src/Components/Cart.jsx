@@ -1,13 +1,11 @@
 import React, { useContext } from 'react'
 import {
-  MDBContainer,
+ 
   MDBRow,
-  MDBCol,
-  MDBCard,
-  MDBCardBody,
+
   MDBCardImage,
   MDBCardTitle,
-  MDBIcon,
+ 
 } from "mdb-react-ui-kit";
 import'./cart.css'
 import { create } from '../App';

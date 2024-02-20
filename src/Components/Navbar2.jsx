@@ -1,21 +1,15 @@
 import React, { useContext } from 'react'
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import Offcanvas from 'react-bootstrap/Offcanvas';
+
 import "./home.css"
 import { useNavigate } from 'react-router-dom';
 import {
   MDBNavbar,
   MDBContainer,
-  MDBNavbarBrand,
+ 
 } from 'mdb-react-ui-kit';
-import Products from './Products';
-import Footer from './Footer';
-import ProductView from './ProductView';
+
 import { create } from '../App';
 import './navbar2.css'
 

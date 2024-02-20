@@ -1,11 +1,7 @@
 import React, { useContext,useState } from 'react'
 
 import {
-    MDBCard,
-    MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
-    MDBCardImage,
+   
     MDBBtn,
     MDBModal,
     MDBModalDialog,
@@ -15,7 +11,7 @@ import {
     MDBModalBody,
     MDBModalTitle
   } from 'mdb-react-ui-kit';
-  import Table from 'react-bootstrap/Table';
+ 
   import './productview.css'
   
 

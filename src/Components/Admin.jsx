@@ -2,7 +2,7 @@ import React, { useContext,useRef,useState } from 'react'
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import { create } from '../App';
-import { items } from './items/Items';
+
 import { useNavigate } from 'react-router-dom';
 import {
   MDBBtn,
@@ -14,10 +14,7 @@ import {
   MDBModalBody,
   MDBModalFooter,
   MDBInput,
-  MDBPopover,
-  MDBPopoverHeader,
-  MDBPopoverBody,
-   MDBTooltip
+ 
 } from 'mdb-react-ui-kit';
 
 const Admin = () => {

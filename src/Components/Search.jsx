@@ -1,13 +1,12 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { create } from '../App'
 import {
   MDBCard,
   MDBCardBody,
-  MDBCardTitle,
+ 
   MDBCardText,
   MDBCardImage,
-  MDBNavbar,
-  MDBContainer,
+
 } from 'mdb-react-ui-kit';
 
 

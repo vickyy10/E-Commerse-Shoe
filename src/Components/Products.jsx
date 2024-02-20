@@ -2,14 +2,11 @@ import React, { useContext } from 'react'
 import {
     MDBCard,
     MDBCardBody,
-    MDBCardTitle,
-    MDBCardText,
+   
     MDBCardImage,
-    MDBNavbar,
-    MDBContainer,
+   
   } from 'mdb-react-ui-kit';
-  import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+  
 
 
 import './product.css'

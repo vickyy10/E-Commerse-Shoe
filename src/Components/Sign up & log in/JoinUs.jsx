@@ -2,8 +2,8 @@ import React, { useContext, useRef } from 'react'
 import'./joinus.css'
 import { Link, useNavigate } from 'react-router-dom';
 import { create } from '../../App';
-import Alert from 'react-bootstrap/Alert';
-import { ToastContainer, toast } from 'react-toastify';
+
+import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 

@@ -7,7 +7,6 @@ import SignIn from "./Components/Sign up & log in/SignIn"
 import Footer from "./Components/Footer";
 import { items } from "./Components/items/Items";
 import Products from "./Components/Products";
-import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import ProductView from "./Components/ProductView";
 import Cart from "./Components/Cart";
 import Navbar2 from "./Components/Navbar2";
