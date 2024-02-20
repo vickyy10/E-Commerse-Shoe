@@ -105,7 +105,7 @@ const Admin = () => {
         <div style={{width:"100%",padding:"10px", height:"100vh" }} >
        {userdetails.map((x,index)=>{
         return(
-          <div style={{width:"100%",height:"100px",boxShadow:"0px 0px 3px 3px grey",marginTop:"10px", borderRadius:" 10px",padding:"10px",display:"flex",justifyContent:"space-between", backgroundColor:"#12ed6a" }} >
+          <div key={index} style={{width:"100%",height:"100px",boxShadow:"0px 0px 3px 3px grey",marginTop:"10px", borderRadius:" 10px",padding:"10px",display:"flex",justifyContent:"space-between", backgroundColor:"#12ed6a" }} >
           <div>
           <h6> id :{index+1}</h6>
           <h6> userName : {x.username}</h6>
@@ -124,7 +124,7 @@ const Admin = () => {
         
      {products.map((x)=>{
       return(
-        <div style={{width:"99%",boxShadow:"0px 0px 3px 3px grey",backgroundColor:"white",margin:"10px" ,display:"flex",alignContent:"center",justifyContent:"space-between", borderRadius:" 10px",padding:"10px" }} >
+        <div key={x.id} style={{width:"99%",boxShadow:"0px 0px 3px 3px grey",backgroundColor:"white",margin:"10px" ,display:"flex",alignContent:"center",justifyContent:"space-between", borderRadius:" 10px",padding:"10px" }} >
           
           <div style={{display:"flex"}}  > <img style={{height:"100px",borderRadius:"10px"}} src={x.img} alt="" /> 
             <div style={{marginLeft:"10px"}} >
@@ -136,7 +136,7 @@ const Admin = () => {
           </div>
          <div style={{width:"100px",height:"90px",display:"grid",alignItems:"center",justifyContent:"center"}} >
              <button style={{width:"60px",borderRadius:"5px",height:"30px",border:"0px",backgroundColor:'#3734d5',color:"white",fontWeight:"bold"}} onClick={()=>{{toggleOpenedit();setsingleitem(x)}}} >Edit</button>
-              <button  hover style={{width:"70px",borderRadius:"5px",height:"30px",border:"0px",backgroundColor:'#eb1919',color:"white",fontWeight:"bold"}} onClick={()=>remove(x.id)} >remove</button>
+              <button  style={{width:"70px",borderRadius:"5px",height:"30px",border:"0px",backgroundColor:'#eb1919',color:"white",fontWeight:"bold"}} onClick={()=>remove(x.id)} >remove</button>
              </div>
          
         </div>
@@ -202,10 +202,10 @@ const Admin = () => {
             <MDBModalBody><div style={{width:"100%"}} >
             {
     userdetails[0] && userdetails.map((x) => (
-        <>
+        < div key={x.id} >
         
             {x.cart.map((a) => (
-                <div style={{ width: "100%", height: "100px", backgroundColor: "lightblue", display: "flex", marginTop: "10px", padding: "10px" }}>
+                <div key={a.id} style={{ width: "100%", height: "100px", backgroundColor: "lightblue", display: "flex", marginTop: "10px", padding: "10px" }}>
                     <div><img style={{ height: "100px", borderRadius: "10px" }} src={a.img} alt="" /></div>
                     <div style={{ marginLeft: "10px" }}>
                         <p>{a.name}</p>
@@ -213,7 +213,7 @@ const Admin = () => {
                     </div>
                 </div>
             ))}
-        </>
+        </div>
     ))
 }
 

@@ -34,9 +34,9 @@ const Products = () => {
    
     
 
-    <div className='main-main-div-products'>
+    <div  key={products.id} className='main-main-div-products'>
        
-    < div className='maindiv-products'>
+    < div key={products.id} className='maindiv-products'>
 
      
 
@@ -45,14 +45,14 @@ const Products = () => {
         {filterprdct.map((x)=>{
           return(
             
-            <MDBCard className='card' onClick={()=>nav(`/productview/${x.type}/${x.id}`)}  >
+            <MDBCard  key={x.id} className='card' onClick={()=>nav(`/productview/${x.type}/${x.id}`)}  >
       <MDBCardImage  src={x.img} alt='...' className='prdctimg '/>
       <MDBCardBody>
-        <MDBCardText>
+        <div>
          <h4>{x.name}</h4>
          <p>{x.type}'s shoe</p>
          <h6>MRP : {x.price}</h6>
-        </MDBCardText>
+        </div>
       </MDBCardBody>
     </MDBCard>
           )

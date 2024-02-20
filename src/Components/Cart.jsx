@@ -42,7 +42,7 @@ const total=login.cart.reduce((acc,curr)=>acc+=curr.price*curr.qty,0)
     <div>
       
       {login.cart.map((x)=>(
-        <div className='container'>
+        <div key={x.id} className='container'>
         <MDBRow >
           <div className='container'>
             <div className="main-div "  >

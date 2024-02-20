@@ -93,24 +93,24 @@ console.log(login.cart);
 
         <div style={{width:"320px",height:"185px",backgroundColor:"white"}} >
           <div style={{display:"flex"}} >
-         <div style={{width:"100px",height:"40px", border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 6.5</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 7</div>
-         <div style={{width:"100px",height:"40px", border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 7.5</div>
+          <div className='Chart-div' >UK 6.5</div>
+         <div className='Chart-div'  >UK 7</div>
+         <div className='Chart-div' >UK 7.5</div>
          </div>
          <div style={{display:"flex"}} >
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 8</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 8.5</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 9</div>
+         <div className='Chart-div' >UK 8</div>
+         <div className='Chart-div' >UK 8.5</div>
+         <div className='Chart-div' >UK 9</div>
          </div>
          <div style={{display:"flex"}} >
-         <div style={{width:"100px",height:"40px", border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 9.5</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 10</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 10.5</div>
+         <div className='Chart-div' >UK 9.5</div>
+         <div className='Chart-div' >UK 10</div>
+         <div className='Chart-div' >UK 10.5</div>
          </div>
          <div style={{display:"flex"}} >
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 11</div>
-         <div style={{width:"100px",height:"40px",  border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 11.5</div>
-         <div style={{width:"100px",height:"40px", border:"1px solid grey",margin:"3px",borderRadius:"5px", display:"flex",justifyContent:"center",alignItems:"center" }} >UK 12</div>
+         <div className='Chart-div'>UK 11</div>
+         <div className='Chart-div' >UK 11.5</div>
+         <div className='Chart-div' >UK 12</div>
          </div>
          <div style={{height:"100px", display:"flex",justifyContent:"center",alignItems:"center" }} >
           <button style={{width:"320px",height:"55px",borderRadius:"360px", color:"white", fontWeight:" bold", backgroundColor:'black', border:"0px" }} onClick={addtobag} >Add To Bag</button>
@@ -132,12 +132,13 @@ console.log(login.cart);
           
            
               <MDBModal
+               key="modal1" 
               animationDirection='right'
               open={topRightModal}
               tabIndex='-1'
               setOpen={setTopRightModal}
             >
-              <MDBModalDialog   position='top-right' side>
+              <MDBModalDialog >
                 <MDBModalContent>
                   <MDBModalHeader className='bg-black text-white'>
                     <MDBModalTitle>Product in the cart</MDBModalTitle>

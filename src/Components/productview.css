@@ -1,3 +1,19 @@
+
+
+.Chart-div{
+  width: 100px;
+  height: 40px;
+  border: 1px ;
+  border-style: solid;
+  border-color: grey;
+  margin: 3px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 @media screen and (max-width:767px){
   .img-div{
     width: 30px!important;
