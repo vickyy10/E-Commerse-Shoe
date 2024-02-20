@@ -1,0 +1,28 @@
+@media screen and (max-width:767px){
+  .img-div{
+    width: 30px!important;
+    height: 300px!important;
+  }
+  .img{
+    width: 320px!important;
+    margin-left: 5px;
+    
+    
+  }
+  .details{
+    margin-top: 30px;
+    margin-left: -190px!important;
+
+  }
+ 
+ 
+ 
+ 
+ 
+ }
+ .viewbag{
+  background-color: black !important;
+  color: white !important;
+  border: 0px !important;
+  box-shadow: 0px 0px 1px 1px grey !important;
+ }

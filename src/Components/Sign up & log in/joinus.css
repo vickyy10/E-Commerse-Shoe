@@ -1,0 +1,24 @@
+.maindiv{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subdiv{
+    width: 400px;
+    height: 400px;
+
+}
+.namediv{
+    margin-bottom: 20px;
+}
+.emaildiv{
+    margin-bottom: 20px;
+}
+.passdiv{
+    margin-bottom: 20px;
+}
+

@@ -1,0 +1,40 @@
+.maindiv-products{
+   
+width: 100%;
+margin:2rem 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly; 
+}
+.main-main-div-products{
+   
+  width: 100%;
+
+ 
+}
+
+.card{
+    width: 400PX; 
+    margin: 8px;
+   
+}
+.card:hover{
+    cursor: pointer;
+}
+.prdctimg{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width:767px){
+
+    .main-main-div-products{
+   
+        width: 100%;
+       
+      }
+
+
+
+
+}

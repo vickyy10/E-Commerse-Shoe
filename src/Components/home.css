@@ -1,0 +1,183 @@
+.top-nav{
+    background-image: url(https://i.pinimg.com/originals/fb/24/64/fb2464eabcc15bdd0006155755935735.gif);
+}
+
+.nav1{
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+    
+}
+.join-us{
+    color: rgb(255, 255, 255) !important ;
+    font-weight: bold !important ;  
+}
+.join-us:hover{
+    color: rgba(87, 115, 253, 0.656) !important ;
+    scale: 1.1;
+   
+
+    
+}
+.menudiv{
+
+    display: flex;
+ margin-left: 20px;
+}
+.h:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+.homeicon:hover{
+    cursor: pointer;
+}
+.rightnav{
+    
+    display: flex;
+    justify-content: space-between;
+}
+.searchfield{
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+
+}
+.icondiv{
+    display: flex;
+ 
+    justify-content: space-evenly;
+    width: 80px}
+    
+   
+.cart-icon{
+    height: 30px;
+}
+.login-icon{
+    height:  30px;
+}
+.body-div{
+  
+    width: 100%;
+   
+   
+}
+.main-main-img-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.main-img-div{
+    width: 90%;
+  
+   
+
+}
+.image1{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    margin-top: 10px;
+}
+.text-div{
+    position: absolute;
+    margin-top: 10px;
+    width: 85%;
+    height: 80vh;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.shop-btn{
+    background-color: white;
+    color: black;
+    width: 170px;
+    height: 40px;
+    border-radius: 360px;
+    border: 0px;
+    margin-bottom: 20px ;
+}
+.text1-div{
+    
+    padding-top: 20px;
+    padding-bottom: 1px;
+    width: 90%;
+}
+.card-div{
+ 
+    min-height: 85vh;
+    width: 90%;
+   display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+   
+
+}
+.text2-div{
+  
+    padding-top: 20px;
+    padding-bottom: 1px;
+    width:90%;
+}
+.vid2-div{
+    height: 600px;
+    width: 90%;
+    margin-top: 5px;
+   
+    
+}
+.text3-div{
+    height: 200px;
+   
+    width: 90%;
+    padding-top: 30px;
+
+}
+.shop-img1-div{
+    width: 600px;
+    height: 80vh;
+   
+    margin-top: 15px;
+   
+
+}
+.shop-img2-div{
+    width: 600px;
+    height: 80vh;
+   
+    margin-top: 15px;
+   
+   
+
+}
+
+.shop-img2{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+
+}
+.shop-img2-div:hover{
+   
+   cursor: pointer;
+
+}
+.shop-img1-div:hover{
+   
+    cursor: pointer;
+ 
+ }
+.shop-img2{
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+
+}
+.maintext{
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

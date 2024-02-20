@@ -1,0 +1,16 @@
+.main-div{
+   width: 100%;
+    border-bottom: 1px solid black;
+    padding:"10px";
+    display: flex;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+.details-div{
+    background: rgba(245, 222, 179, 0.555);
+
+}
+.delete-icon{
+    height: 40px;
+}
