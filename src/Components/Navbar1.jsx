@@ -1,7 +1,7 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import './Vite.Config'
+import {Container} from 'react-bootstrap';;
+import { Nav } from 'react-bootstrap';
+
 
 import "./home.css"
 import { useNavigate } from 'react-router-dom';
