@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 
-import { Nav } from 'react-bootstrap';
+import Nav from 'react-bootstrap/Nav';
+
 
 import "./home.css"
 import { useNavigate } from 'react-router-dom';
