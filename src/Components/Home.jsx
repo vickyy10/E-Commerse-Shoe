@@ -10,13 +10,13 @@ const Home = () => {
 
   const { login } = useContext(create);
   return (
-    <div>
+    <div style={{backgroundb:"black"}} >
 
     
      
 
       <div className=" body-div ">
-        <div className="main-main-img-div">
+        <div  className="main-main-img-div">
 
         <div className="  main-img-div ">
           <div className="text-div">
@@ -27,7 +27,7 @@ const Home = () => {
           </div>
           <img
             className="image1"
-            src="https://media.gq.com/photos/59e779eab2ac1f76b03c344c/master/pass/zoomfly-sp-sneak-of-the-week.gif"
+            src="https://images.squarespace-cdn.com/content/v1/5540d48de4b040fb86c78e2f/1531292358236-8TMMQ0DUGY67XX0TX3RU/ks--15.jpg?format=2500w"
             alt=""
             />
         </div>
@@ -44,14 +44,14 @@ const Home = () => {
             
             <img
               className="shop-img2"
-              src="https://www.asphaltgold.com/cdn/shop/files/c50a0110c6df14039580f2dba53ea5f539efbd51_FB8971_100_Nike_Air_Force_1_07_LV8_White_White_Dark_Marina_Blue_sm_2_768x768_crop_center.jpg?v=1706103713"
+              src="https://i.etsystatic.com/46383076/r/il/97de47/5323740485/il_fullxfull.5323740485_g9ok.jpg"
               alt=""
             />
           </div>
           <div className="shop-img2-div">
             <img
               className="shop-img2"
-              src="https://cdn.shopify.com/s/files/1/0244/4912/2367/files/361513866_247700281354711_5655205493695015595_n.jpg?v=1690547643"
+              src="https://www.byrdie.com/thmb/5cP_fMcIC5A5GTlc0b7Clw2SGCo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/salterhouse-4c15074f2d3546bb9b9d2e8aadca28cd.jpg"
               alt=""
             />
           </div>

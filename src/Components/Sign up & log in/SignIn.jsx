@@ -44,13 +44,11 @@ const SignIn = () => {
   return (
     <div className='Maindiv' >
       
-        <div className='overlay'>
-        <img onClick={()=>nav('/')} className='back-icon'  src="https://cdn-icons-png.flaticon.com/128/9283/9283220.png" alt="w4" />
-        </div>
-        <img className='bg-image'  src="https://sneakerlounge.au/cdn/shop/files/Close3_6adc3b21-5778-45cb-9e80-86e9ea6231ab.jpg?v=1692322835&width=2000" alt="" />
+        <div className='overlay'> </div>
+        <img className='bg-image'  src="https://www.asphaltgold.com/cdn/shop/files/7781edb36627b53033c415728bd00c4e640c8090_DM0028_002_Nike_Air_Max_97_OG_Silver_Bullet_Metallic_Silver_University_Red_Black_sm_4_768x768_crop_center.jpg?v=1705319133" alt="" />
         <div  className='subdiv'  >
         <form ref={inputref} onSubmit={submithandler} >
-           <div className='heading-div contaier ' ><h3 className='heading'  > Login</h3></div>
+           <div className='heading-div contaier ' ><h3 className='heading'  > Login</h3> <img onClick={()=>nav('/')} style={{height:"40px",right:"13px",position:"absolute"}} src="https://cdn-icons-png.flaticon.com/128/7543/7543146.png" alt="" /></div>
       
 
            <div className='namediv' >

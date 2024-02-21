@@ -17,6 +17,12 @@
   scale: 1.05;
   background-color: rgb(54, 54, 54);
   color: white;
+  transition: 1;
+
+}
+.add-to-bag-btn:hover{
+  scale: 1.01;
+  transition: .07s;
 
 }
 

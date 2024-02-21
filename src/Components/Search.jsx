@@ -1,5 +1,6 @@
 import React, { useContext } from 'react'
 import { create } from '../App'
+import './search.css'
 import {
   MDBCard,
   MDBCardBody,
@@ -16,7 +17,7 @@ const Search = () => {
    
    
   return (
-    <div className=' maindiv' >
+    <div className=' maindiv-search' >
       {searchdata?searchdata.map((x)=>(<MDBCard className='card'>
       <MDBCardImage  src={x.img} alt='...' className='prdctimg '/>
       <MDBCardBody>

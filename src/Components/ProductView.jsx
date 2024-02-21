@@ -109,7 +109,7 @@ console.log(login.cart);
          <div className='Chart-div' >UK 12</div>
          </div>
          <div style={{height:"100px", display:"flex",justifyContent:"center",alignItems:"center" }} >
-          <button style={{width:"320px",height:"55px",borderRadius:"360px", color:"white", fontWeight:" bold", backgroundColor:'black', border:"0px" }} onClick={addtobag} >Add To Bag</button>
+          <button className='add-to-bag-btn' style={{width:"320px",height:"55px",borderRadius:"360px", color:"white", fontWeight:" bold", backgroundColor:'black', border:"0px" }} onClick={addtobag} >Add To Bag</button>
          </div>
          
        

@@ -5,6 +5,7 @@
 
 }
 
+
 .nav1{
     display: flex;
     width: 120px;
@@ -65,6 +66,7 @@
     height:  30px;
 }
 .body-div{
+  
   
     width: 100%;
    
@@ -143,7 +145,7 @@
 
 }
 .shop-img1-div{
-    width: 600px;
+    width: 650px;
     height: 80vh;
    
     margin-top: 15px;
@@ -151,9 +153,8 @@
 
 }
 .shop-img2-div{
-    width: 600px;
+    width: 650px;
     height: 80vh;
-   
     margin-top: 15px;
    
    
