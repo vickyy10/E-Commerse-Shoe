@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 
 import Nav from 'react-bootstrap/Nav';
+import './Vite.Config'
 
 import "./home.css"
 import { useNavigate } from 'react-router-dom';
