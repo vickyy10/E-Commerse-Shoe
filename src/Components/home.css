@@ -1,13 +1,18 @@
 .top-nav{
     background-image: url(https://i.pinimg.com/originals/fb/24/64/fb2464eabcc15bdd0006155755935735.gif);
+    height: 37px;
+    display: flex;
+
 }
 
 .nav1{
     display: flex;
     width: 120px;
     justify-content: space-around;
+    align-items: center;
     margin: 0%;
     padding: 0%;
+   
     
 }
 .join-us{
