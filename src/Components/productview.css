@@ -13,6 +13,13 @@
   align-items: center;
 
 }
+.Chart-div:hover{
+  scale: 1.05;
+  background-color: rgb(54, 54, 54);
+  color: white;
+
+}
+
 
 @media screen and (max-width:767px){
   .img-div{

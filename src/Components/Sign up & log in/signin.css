@@ -70,3 +70,10 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 0px;
 
 }
+.back-icon{
+    height: 40px;
+    margin: 10px;
+}
+.back-icon:hover{
+    scale: 1.1;
+}

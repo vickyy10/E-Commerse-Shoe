@@ -43,7 +43,10 @@ const SignIn = () => {
     
   return (
     <div className='Maindiv' >
-        <div className='overlay'></div>
+      
+        <div className='overlay'>
+        <img onClick={()=>nav('/')} className='back-icon'  src="https://cdn-icons-png.flaticon.com/128/9283/9283220.png" alt="w4" />
+        </div>
         <img className='bg-image'  src="https://sneakerlounge.au/cdn/shop/files/Close3_6adc3b21-5778-45cb-9e80-86e9ea6231ab.jpg?v=1692322835&width=2000" alt="" />
         <div  className='subdiv'  >
         <form ref={inputref} onSubmit={submithandler} >
