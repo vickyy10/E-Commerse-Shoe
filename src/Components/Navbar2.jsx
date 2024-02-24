@@ -48,6 +48,7 @@ const Navbar2 = () => {
         <MDBContainer fluid>
         <div><h1   onClick={()=>nav('/')} className='homeicon' >shoe store</h1></div>
         <div className='menudiv'>
+        <span style={{paddingLeft:"10px"}}  > <Nav.Link className='h'  onClick={()=>nav("/")} >HOME</Nav.Link></span>
           <span style={{paddingLeft:"10px"}}  > <Nav.Link className='h'  onClick={()=>nav("/product/men")} >MEN</Nav.Link></span>
        <span style={{paddingLeft:"10px"}} > <Nav.Link className='h'   onClick={()=>nav("/product/women")} >WOMEN</Nav.Link></span>
         <span style={{paddingLeft:"10px"}} ><Nav.Link className='h'   onClick={()=>nav("/product/kid")} >KIDS</Nav.Link></span>

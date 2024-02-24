@@ -152,6 +152,14 @@
    
 
 }
+.shop-img1-text-div{
+    width: 650px;
+    height: 80vh;
+   
+   position: absolute;
+   background-color: aliceblue;
+
+}
 .shop-img2-div{
     width: 650px;
     height: 80vh;

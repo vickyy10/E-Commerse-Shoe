@@ -9,16 +9,18 @@ import {
   MDBCardImage,
 
 } from 'mdb-react-ui-kit';
+import { useNavigate } from 'react-router-dom';
 
 
 const Search = () => {
+  const nav=useNavigate()
  const {searchdata} = useContext(create)
 
    
    
   return (
     <div className=' maindiv-search' >
-      {searchdata?searchdata.map((x)=>(<MDBCard className='card'>
+      {searchdata?searchdata.map((x)=>(<MDBCard key={x.id} className='card' onClick={()=>nav(`/productview/${x.type}/${x.id}`)} >
       <MDBCardImage  src={x.img} alt='...' className='prdctimg '/>
       <MDBCardBody>
         <MDBCardText>

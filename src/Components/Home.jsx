@@ -21,13 +21,13 @@ const Home = () => {
         <div className="  main-img-div ">
           <div className="text-div">
             <a href="#menwomen">
-              {" "}
+             
               <button className="shop-btn">Shop now &#11183;</button>
             </a>
           </div>
           <img
             className="image1"
-            src="https://images.squarespace-cdn.com/content/v1/5540d48de4b040fb86c78e2f/1531292358236-8TMMQ0DUGY67XX0TX3RU/ks--15.jpg?format=2500w"
+            src="https://mensflair.com/wp-content/uploads/2022/11/chunky-sneakers-men.jpg"
             alt=""
             />
         </div>
@@ -41,17 +41,21 @@ const Home = () => {
           <div style={{display:"flex",justifyContent:"center"}} >
         <div id="menwomen" className="card-div ">
           <div  className="shop-img1-div">
-            
+          
+            <h1 style={{position:"absolute",marginTop:"450px",marginLeft:"30px",color:"white"}}>MEN</h1>
+            <p style={{position:"absolute",marginTop:"500px",marginLeft:"30px",color:"white"}} >style kjnggjnkjadndbvj</p>
+            <button style={{position:"absolute",marginTop:"550px",marginLeft:"30px",}} >SHOP</button>
             <img
               className="shop-img2"
-              src="https://i.etsystatic.com/46383076/r/il/97de47/5323740485/il_fullxfull.5323740485_g9ok.jpg"
+              src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1503893837-1-655cc6b9c070d.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*"
               alt=""
             />
+          
           </div>
           <div className="shop-img2-div">
             <img
               className="shop-img2"
-              src="https://www.byrdie.com/thmb/5cP_fMcIC5A5GTlc0b7Clw2SGCo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/salterhouse-4c15074f2d3546bb9b9d2e8aadca28cd.jpg"
+              src="https://www.asphaltgold.com/cdn/shop/files/f9e544cdaa88c304103ec479ab084689482a8be6_ID6805_Adidas_x_Youth_of_Paris_Campus_80s_Crystal_White___Grey_One___Seafoam_Green_sm_2_768x768_crop_center.jpg?v=1706542520"
               alt=""
             />
           </div>
