@@ -70,7 +70,7 @@ const JoinUs = () => {
 
 </form>
 <div className="text-center">
-<p style={{color:"white"}} >Login here <Link to="/signin">Login</Link></p>
+<p style={{color:"white"}} >Already have an account. <Link to="/signin">Login here</Link></p>
 
 </div>
 

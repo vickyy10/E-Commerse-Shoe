@@ -46,7 +46,7 @@ const Navbar2 = () => {
     <div>
          <MDBNavbar sticky='top' light bgColor='light'>
         <MDBContainer fluid>
-        <div><h1   onClick={()=>nav('/')} className='homeicon' >shoe store</h1></div>
+        <div className='home-icon-div' ><h1  onClick={()=>nav('/')} className='homeicon' >shoe store</h1></div>
         <div className='menudiv'>
         <span style={{paddingLeft:"10px"}}  > <Nav.Link className='h'  onClick={()=>nav("/")} >HOME</Nav.Link></span>
           <span style={{paddingLeft:"10px"}}  > <Nav.Link className='h'  onClick={()=>nav("/product/men")} >MEN</Nav.Link></span>

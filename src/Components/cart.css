@@ -8,9 +8,38 @@
     margin-bottom: 7px;
 }
 .details-div{
-    background: rgba(245, 222, 179, 0.555);
+    margin-top: 20px;
+   
 
 }
 .delete-icon{
     height: 40px;
+}
+.image-cart{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    margin: 5px;
+    margin-right: 100px;
+}
+
+@media screen and (max-width:767px){
+
+   .image-cart{
+
+    margin-right: 10px;
+    height: 140px;
+    width: 140px;
+
+
+   }
+   .details-div{
+    margin-top: 5px;
+    
+
+}
+
+
+
+
 }

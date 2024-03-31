@@ -79,14 +79,15 @@
     background-color: white;
 }
 .main-img-div{
-    width: 90%;
+    width: 93%;
+
   
    
 
 }
 .image1{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
     margin-top: 10px;
 }
@@ -99,7 +100,7 @@
     align-items: end;
     justify-content: center;
 }
-.shop-btn{
+.shop-btn-1{
     background-color: white;
     color: black;
     width: 170px;
@@ -111,13 +112,13 @@
 .text1-div{
     
     padding-top: 20px;
-    padding-bottom: 1px;
-    width: 90%;
+    
+    width: 93%;
 }
 .card-div{
  
     min-height: 85vh;
-    width: 90%;
+    width: 93%;
    display: flex;
     flex-wrap: wrap;
   justify-content: space-between;
@@ -128,11 +129,11 @@
   
     padding-top: 20px;
     padding-bottom: 1px;
-    width:90%;
+    width:93%;
 }
 .vid2-div{
     height: 600px;
-    width: 90%;
+    width: 93%;
     margin-top: 5px;
    
     
@@ -146,7 +147,7 @@
 }
 .shop-img1-div{
     width: 650px;
-    height: 80vh;
+    height: 90vh;
    
     margin-top: 15px;
    
@@ -154,27 +155,27 @@
 }
 .shop-img1-text-div{
     width: 650px;
-    height: 80vh;
+    height: 90vh;
    
    position: absolute;
    background-color: aliceblue;
 
 }
+.shop-btn{
+  position: absolute;
+  margin-top:550px;
+  margin-left:30px;
+}
+    
 .shop-img2-div{
-    width: 650px;
-    height: 80vh;
+    width: 700px;
+    height: 100vh;
     margin-top: 15px;
    
    
 
 }
 
-.shop-img2{
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-
-}
 .shop-img2-div:hover{
    
    cursor: pointer;
@@ -187,11 +188,52 @@
  }
 .shop-img2{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
     object-fit: cover;
 
 }
 .maintext{
     font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width: 786px) {
+    .tt3{
+        margin-top: 10px;
+        margin-left: 460px;
+        font-size: 40px !important;
+    }
+    .tt2{
+        margin-top: 10px;
+        margin-left: 460px;
+        font-size: 40px !important;
+    }
+    .tt1{
+        margin-top: -150px;
+        margin-left: 460px;
+        font-size: 40px !important;
+        
+    }
+
+    .ttdiv{
+        padding-top: 130px;
+    }
+    .image1{
+        height: 70vh;
+    }
+    .shop-btn-1{
+        position: absolute;
+        margin-top: -170px;
+        margin-left: 20px;
+    }
+    .shop-img1-div{
+        height: 70vh;
+    }
+    .shop-img2-div{
+        height: 70vh;
+    }
+    .shop-img2{
+        height: 70vh;
+    }
+    
+
 }

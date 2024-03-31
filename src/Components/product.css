@@ -16,6 +16,7 @@ justify-content: space-evenly;
 .card{
     width: 400PX; 
     margin: 8px;
+    
    
 }
 .card:hover{

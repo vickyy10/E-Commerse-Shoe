@@ -35,7 +35,7 @@ const total=login.cart.reduce((acc,curr)=>acc+=curr.price*curr.qty,0)
 
 
   return (
-    <div>
+    <div  >
         <h3 style={{display:"flex",justifyContent:"center",alignItems:"center",margin:"10px"}} >Total price : {total}</h3>
     <div>
       
@@ -45,7 +45,7 @@ const total=login.cart.reduce((acc,curr)=>acc+=curr.price*curr.qty,0)
           <div className='container'>
             <div className="main-div "  >
              
-              <MDBCardImage style={{height:"200px",width:"200px", backgroundColor:"red",objectFit:"cover",marginRight:"100px"}}
+              <MDBCardImage className='image-cart' 
                 src={x.img}
                 position="left"
                 alt="Apple Computer"
@@ -55,8 +55,12 @@ const total=login.cart.reduce((acc,curr)=>acc+=curr.price*curr.qty,0)
                   <MDBCardTitle>{x.name}</MDBCardTitle>
                   <div>{x.type}'s shoe</div>
                   <div>price : {x.price * x.qty} </div>
-                  <div>quantity:  {x.qty} <button style={{width:"30px",marginRight:"10px"}} onClick={()=>increment(x)} >+</button>
-                  <button style={{width:"30px"}} onClick={()=>decrement(x)} >-</button></div>
+                  <div>quantity:  {x.qty} 
+                  {/* <button style={{width:"30px",marginRight:"10px",borderRadius:"360px"}} onClick={()=>increment(x)} >+</button> */}
+                  <img onClick={()=>increment(x)} style={{height:"30px",margin:"5px"}} src="https://cdn-icons-png.flaticon.com/128/1828/1828919.png" alt="" />
+                  <img onClick={()=>decrement(x)} style={{height:"30px",margin:"5px"}} src="https://cdn-icons-png.flaticon.com/128/561/561179.png" alt="" />
+                  {/* <button style={{width:"30px",borderRadius:"360px"}} onClick={()=>decrement(x)} >-</button> */}
+                  </div>
                   <img className='delete-icon' onClick={()=>remove(x.id)} src="https://cdn-icons-png.flaticon.com/128/6711/6711573.png" alt="" />
                  
                 </div>

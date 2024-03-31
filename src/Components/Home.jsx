@@ -21,8 +21,13 @@ const Home = () => {
         <div className="  main-img-div ">
           <div className="text-div">
             <a href="#menwomen">
+              <div className="ttdiv" style={{width:'700px',height:'400px',background:'',marginLeft:'-500px',marginBottom:' 60px'}}>
+                <h1 className="tt1" style={{fontSize:'100px',color:'white'}}>STRIDE</h1>
+                <h1 className="tt2" style={{fontSize:'100px',color:'white'}}>IN STYLE</h1>
+                <h1 className="tt3" style={{fontSize:'100px',color:'white'}}>COMFORTABLY  </h1>
+              </div>
              
-              <button className="shop-btn">Shop now &#11183;</button>
+              <button className="shop-btn-1">Shop now &#11183;</button>
             </a>
           </div>
           <img
@@ -44,7 +49,7 @@ const Home = () => {
           
             <h1 style={{position:"absolute",marginTop:"450px",marginLeft:"30px",color:"white"}}>MEN</h1>
             <p style={{position:"absolute",marginTop:"500px",marginLeft:"30px",color:"white"}} >style kjnggjnkjadndbvj</p>
-            <button style={{position:"absolute",marginTop:"550px",marginLeft:"30px",}} >SHOP</button>
+            <button className="shop-btn" >SHOP</button>
             <img
               className="shop-img2"
               src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1503893837-1-655cc6b9c070d.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*"
@@ -55,7 +60,7 @@ const Home = () => {
           <div className="shop-img2-div">
             <img
               className="shop-img2"
-              src="https://www.asphaltgold.com/cdn/shop/files/f9e544cdaa88c304103ec479ab084689482a8be6_ID6805_Adidas_x_Youth_of_Paris_Campus_80s_Crystal_White___Grey_One___Seafoam_Green_sm_2_768x768_crop_center.jpg?v=1706542520"
+              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F09%2Fconcepts-new-balance-2002r-protection-pack-early-release-info-001.jpg?cbr=1&q=90"
               alt=""
             />
           </div>
