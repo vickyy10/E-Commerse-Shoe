@@ -32,7 +32,7 @@ const Home = () => {
           </div>
           <img
             className="image1"
-            src="https://mensflair.com/wp-content/uploads/2022/11/chunky-sneakers-men.jpg"
+            src="https://www.localesbambaci.com.ar/cdn/shop/collections/932f56fe-0014-43a5-aa27-505cebe9b99d.__CR0_0_1464_600_PT0_SX1464_V1_1200x1200.jpg?v=1584315807"
             alt=""
             />
         </div>
@@ -52,7 +52,7 @@ const Home = () => {
             <button className="shop-btn" >SHOP</button>
             <img
               className="shop-img2"
-              src="https://hips.hearstapps.com/hmg-prod/images/gettyimages-1503893837-1-655cc6b9c070d.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=640:*"
+              src="https://www.bijsmaak.com/media/blog/cache/1200x/New-Balance-2002R-_Protection-Pack_-sandstone-turtledove-gold-metallic-4X5-9.jpg"
               alt=""
             />
           
@@ -60,7 +60,7 @@ const Home = () => {
           <div className="shop-img2-div">
             <img
               className="shop-img2"
-              src="https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F09%2Fconcepts-new-balance-2002r-protection-pack-early-release-info-001.jpg?cbr=1&q=90"
+              src="https://www.brit.co/media-library/adidas-sambas-are-of-the-most-popular-it-girl-sneakers.jpg?id=34919917&width=980"
               alt=""
             />
           </div>
