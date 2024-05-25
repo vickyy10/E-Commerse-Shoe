@@ -48,7 +48,7 @@ const SignIn = () => {
         <img className='bg-image'  src="https://www.asphaltgold.com/cdn/shop/files/7781edb36627b53033c415728bd00c4e640c8090_DM0028_002_Nike_Air_Max_97_OG_Silver_Bullet_Metallic_Silver_University_Red_Black_sm_4_768x768_crop_center.jpg?v=1705319133" alt="" />
         <div  className='subdiv'  >
         <form ref={inputref} onSubmit={submithandler} >
-           <div className='heading-div contaier ' ><h3 className='heading'  > Login</h3> <img onClick={()=>nav('/')} style={{height:"40px",right:"13px",position:"absolute"}} src="https://cdn-icons-png.flaticon.com/128/7543/7543146.png" alt="" /></div>
+           <div className='heading-div contaier ' ><h3 className='heading'  > Login</h3> <img onClick={()=>nav('/')} className='x-icon' style={{height:"40px",right:"13px",position:"absolute"}} src="https://cdn-icons-png.flaticon.com/128/7543/7543146.png" alt="" /></div>
       
 
            <div className='namediv' >

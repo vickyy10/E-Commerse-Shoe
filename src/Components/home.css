@@ -67,7 +67,7 @@
 }
 .body-div{
   
-  
+    
     width: 100%;
    
    
@@ -107,7 +107,7 @@
     height: 40px;
     border-radius: 360px;
     border: 0px;
-    margin-bottom: 20px ;
+    margin-bottom: 10px ;
 }
 .text1-div{
     
@@ -127,8 +127,7 @@
 }
 .text2-div{
   
-    padding-top: 20px;
-    padding-bottom: 1px;
+  
     width:93%;
 }
 .vid2-div{
@@ -163,8 +162,15 @@
 }
 .shop-btn{
   position: absolute;
-  margin-top:550px;
+  margin-top:545px;
   margin-left:30px;
+
+  border-radius: 20px;
+  width: 70px;
+  border: 0px;
+  background-color: white;
+  height: 35px;
+  
 }
     
 .shop-img2-div{

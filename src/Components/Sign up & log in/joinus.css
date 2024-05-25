@@ -22,3 +22,6 @@
     margin-bottom: 20px;
 }
 
+.x-icon:hover{
+    scale: 1.1; 
+}

@@ -5,20 +5,24 @@ import "./home.css";
 
 import { create } from "../App";
 import myVideo from './items/vid.mp4'
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
 
   const { login } = useContext(create);
+  const nav=useNavigate()
   return (
-    <div style={{backgroundb:"black"}} >
+
+    
+    <div  >
 
     
      
 
       <div className=" body-div ">
-        <div  className="main-main-img-div">
+        <div   className="main-main-img-div">
 
-        <div className="  main-img-div ">
+        <div  className="  main-img-div ">
           <div className="text-div">
             <a href="#menwomen">
               <div className="ttdiv" style={{width:'700px',height:'400px',background:'',marginLeft:'-500px',marginBottom:' 60px'}}>
@@ -32,7 +36,7 @@ const Home = () => {
           </div>
           <img
             className="image1"
-            src="https://www.localesbambaci.com.ar/cdn/shop/collections/932f56fe-0014-43a5-aa27-505cebe9b99d.__CR0_0_1464_600_PT0_SX1464_V1_1200x1200.jpg?v=1584315807"
+            src="https://footpatrolblog.s3.amazonaws.com/wp-content/uploads/2021/07/NikeGyakusou_Blog11.jpg"
             alt=""
             />
         </div>
@@ -48,8 +52,8 @@ const Home = () => {
           <div  className="shop-img1-div">
           
             <h1 style={{position:"absolute",marginTop:"450px",marginLeft:"30px",color:"white"}}>MEN</h1>
-            <p style={{position:"absolute",marginTop:"500px",marginLeft:"30px",color:"white"}} >style kjnggjnkjadndbvj</p>
-            <button className="shop-btn" >SHOP</button>
+            <p style={{position:"absolute",marginTop:"500px",marginLeft:"30px",color:"white"}} >Redefine Your Walk with Elegance</p>
+            <button className="shop-btn" onClick={()=>nav("/product/men")} >SHOP</button>
             <img
               className="shop-img2"
               src="https://www.bijsmaak.com/media/blog/cache/1200x/New-Balance-2002R-_Protection-Pack_-sandstone-turtledove-gold-metallic-4X5-9.jpg"
@@ -58,6 +62,10 @@ const Home = () => {
           
           </div>
           <div className="shop-img2-div">
+            
+          <h1 style={{position:"absolute",marginTop:"450px",marginLeft:"30px",color:"white"}}>WOMEN</h1>
+            <p style={{position:"absolute",marginTop:"500px",marginLeft:"30px",color:"white"}} > Walk with Confidence.</p>
+            <button className="shop-btn" onClick={()=>nav("/product/men")} >SHOP</button>
             <img
               className="shop-img2"
               src="https://www.brit.co/media-library/adidas-sambas-are-of-the-most-popular-it-girl-sneakers.jpg?id=34919917&width=980"
